@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  border-bottom: 1px #eeeeee solid;
+  max-width: 100%;
+}
+.contanir {
+  max-width: 600px;
+  margin: auto;
+}
+.contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  padding-left: 16px;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 400;
+}
+.links .seclink {
+  color: #000000;
+}
+.links .firstlink {
+  color: #0000ff;
+}
+main {
+  margin-top: 50px;
+}
+main .body h2 {
+  color: #000000;
+  font-size: 35px;
+}
+main .body p {
+  color: #666666;
+  font-size: 18px;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.input input {
+  width: 500px;
+  height: 32px;
+  border: 2px #eeeeee solid;
+  border-radius: 8px;
+  margin: auto;
+}
+.input input:focus {
+  outline: none;
+}
+.input .btnadd {
+  width: 150px;
+  height: 36px;
+  background-color: #0000ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+.mobilebtnadd {
+  display: none;
+  width: 90%;
+  height: 40px;
+  background-color: #0000ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  margin: auto;
+}
+.input :hover {
+  cursor: pointer;
+}
+.contantMain {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #f6f6f6;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.onelist {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.onelist .xbtn {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: none;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onelist p {
+  padding-left: 12px;
+}
+.Total {
+  color: #666666;
+}
+.Total span {
+  color: #000000;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .contanir {
+    max-width: 350px;
+    margin: auto;
+  }
+  .input .btnadd {
+    display: none;
+  }
+  .mobilebtnadd {
+    display: block;
+    margin-top: 70px;
+  }
+}
